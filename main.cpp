@@ -73,8 +73,8 @@ void checkForAlert(const vector<LogEntry>& logs, const vector<Rule>& rules){
 
 int main(){
     // Read file
-    ifstream tFile("D:\\Programming Languages\\C++\\IDS\\traffic.log");
-    ifstream rFile("D:\\Programming Languages\\C++\\IDS\\rules.txt");
+    ifstream tFile("traffic.log");
+    ifstream rFile("rules.txt");
     if (!tFile.is_open()){
         cout << "Failed to open Traffic file!\n";
         return 1;
